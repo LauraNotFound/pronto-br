@@ -977,10 +977,10 @@ function Index() {
                     <Icon aria-hidden="true" size={23} />
                   </span>
                   <span className="mt-4 text-base font-bold leading-tight text-card-foreground">
-                     {getCategoryTitle(category, language)}
+                    {getCategoryTitle(category, language)}
                   </span>
                   <span className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                     {getCategoryDescription(category, language)}
+                    {getCategoryDescription(category, language)}
                   </span>
                   <span className="mt-auto flex items-center gap-1 pt-3 text-xs font-bold text-primary">
                     {copy.view}
@@ -1002,7 +1002,7 @@ function AppFooter() {
     <footer className="mt-10 border-t border-border pt-6 text-center text-sm text-muted-foreground">
       <a
         className="font-medium transition-colors hover:text-primary"
-        href="https://lauranotfound.github.io/DePortada/"
+        href="https://laura-not-found.vercel.app/"
         target="_blank"
         rel="noreferrer"
       >
